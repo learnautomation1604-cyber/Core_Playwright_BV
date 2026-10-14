@@ -3,3 +3,5 @@ Availability of Playwright - npx playwright test
 Install Playwright in the system - npm install -D @playwright/test
 Run a Playwright Test -- npx playwright test
 Run a Specific file from this framework --  npx playwright test "Search.spec.ts" --headed
+Open a Playwright Inspector - npx playwright test "Search.spec.ts" --headed --debug , await page.pause()
+Open a Playwright test - npx playwright test "Search.spec.ts" --headed --ui
